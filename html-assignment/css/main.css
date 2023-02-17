@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(199, 107, 199);
+}
+
+.site-title {
+    color: rgb(165, 155, 142);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px rgba(171, 28, 28, 0.749);
+}
+
+ul {
+    list-style: circle;
+}
+article ul li:nth-child(odd) {
+    background: rgb(127, 100, 147);
+}
+
+nav ul li{
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    border: 3px rgb(181, 143, 92);
+    background: rgb(171, 93, 64);
+}
+
+a:hover {
+    background-color: rgb(113, 180, 158);
+}
