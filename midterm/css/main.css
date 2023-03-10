@@ -19,7 +19,7 @@ nav ul li {
     font-weight: bold;
     border-right: 1px solid;
     text-align: center;
-    padding: 0 124px;
+    padding: 0 125px;
     display: inline-block;
     list-style: none;
 }
@@ -41,13 +41,17 @@ nav ul li {
     border: 1px solid;
 }
 
+li:last-child { 
+    border-right: none;
+}
+
 a:link {
     text-decoration: none;
     color: black;
 }
 
 .life {
-    margin-left: 8px;
+    margin-left: 6px;
     margin-right: 19px;
 }  
 
@@ -63,6 +67,7 @@ a:link {
     float: left;
     margin-left: 16px;
     margin-right: 20px;
+    width: 180px;
 }
  
 .button { 
@@ -74,10 +79,16 @@ a:link {
 .input-box {
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 1000%
+    width: 100%
 }
 
 .copy {
     text-align: right;
     padding: 20px;
+}
+
+message-box {
+    width: 100%;
+    margin-top: 5px;
+    height: 70px;
 }
